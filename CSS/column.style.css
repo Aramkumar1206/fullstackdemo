@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+.tittle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: blue;
+}
+.col{
+    float: left;
+    width: calc((100% - 120px)/7);
+    
+    border:1px solid red ;
+    
+    text-align: center;
+    border-color: black;
+    padding: 10px;
+}
+div.color{
+    color: red;
+    
+}
+div.colo{
+    color: rgb(43, 43, 170);
+}
+.container{
+    display: grid;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+  }
+  .row :after {
+    content: "";
+    display: table;
+    clear: both;
+  }

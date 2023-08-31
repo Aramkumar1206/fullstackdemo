@@ -1,0 +1,48 @@
+.flex{
+    border-radius: 20px;
+    display: flex;
+    background-color: orange;
+    border: 1px solid black;   
+}
+i{ 
+    
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 40px;
+    color: black;
+}
+h1{
+    
+    margin-left: 40px;
+}
+.u1{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    
+}
+li{
+    
+    margin-right: auto;
+    float: left;
+    display: inline;
+    padding: 10px;
+    
+}
+li a{
+    border-radius: 10mm;
+    box-sizing: 10px;
+    background-color: black;
+    margin: auto;
+    display: inline;
+    padding: 10px;
+    text-decoration-line: none;
+    color: rgb(252, 250, 250);
+   
+}
+.link{
+    margin-left: 180mm;
+    float: right;
+    margin-top: 5px;
+   
+}

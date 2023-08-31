@@ -1,0 +1,105 @@
+
+*{  
+    
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+div,h1 a{
+    text-align: center;
+   
+    font-size: 15mm;
+    color: orange;
+}
+div,h1 a:hover{
+    color: aqua;
+}
+
+.sidebar{
+    position: absolute;
+    left: -195px;
+    width: 195px;
+    height: 100%;
+    background-color: gray;
+    transition: all .6s ease;
+}
+.sidebar h{
+    padding: 20px;
+    margin: 30px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background-color: orange;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 80%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    box-sizing: 1px solid rgb(167, 18, 18);
+    border-bottom: 1px solid rgb(7, 5, 5);
+    transition: .6s ease;
+}
+.sidebar ul li:hover a{
+    padding-left: 50px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 3px;
+   
+}
+label #btn{
+    left: -10px;
+    top: px;
+    font-size: 35px;
+    color: rgb(207, 19, 19);
+    padding: 6px 12px;
+    transition: all  .6s ease;
+}
+label #cancel{
+    z-index: 1111;
+    left: 155px;
+    top:17px;
+    font-size: 30px;
+    color: red;
+    padding: 4px 9px;
+    transition: all .6s ease;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ .label #btn{
+    left: 155px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ .label #cancel{
+    left: 155px;
+    
+}
+#check:checked ~ section{
+    margin-left: 195 px;
+}
+section{
+   background-position: center; 
+   background-size: cover;
+   height: 100%;
+   transition: all .6s ease;
+}
+body{
+    background-image: url("https://images.adsttc.com/media/images/6349/3e41/e2ed/0f4f/8539/f684/large_jpg/clan-living-hotel-and-co-living-space-ruang-nyaman_1.jpg?1665744514");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+} 

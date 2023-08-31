@@ -1,0 +1,94 @@
+/* 
+
+Inline 
+It takes only the space 
+It cannot accept height and width
+
+Block
+it takes the whole block of space
+you can give height and width
+
+inline-block
+It takes only the space it hold
+you can give height and width
+
+
+
+Float
+
+position(5)
+
+static (default)
+WE cannot access directions
+
+absolute 
+you can access directions
+it will delete feom the document flow
+
+relative 
+you can access directions
+It does not delete from the document flow 
+
+sticky 
+you can access directions
+it does not delete from the document flow
+it will stick to the position where it has been declered
+
+fixed
+you can access directions
+it will delete from the document flow
+it will fix to the viewport
+
+
+Flexbox
+Gridbox
+
+ */
+
+ img{
+    /* display: block; */
+    margin: 20px;
+    /* float: left; */
+    height: 200px;
+    width: 200px;
+
+ }
+ /* div{
+    
+    position: fixed;
+    left: 300px;
+    top: 0px;
+    border: 2px solid black; 
+    background-color: red;
+    height: 200px;
+    width: 200px;
+ } */
+
+/* Imediate child selectors (>) */
+div > h1{
+    color: yellow;
+}
+
+/* Adjacent sibling selector(-,+) */
+/* div + h1{
+    color: aqua;
+} */
+
+div ~ h1{
+    color: aqua;
+
+}
+
+/* h1:nth-child(1){
+    color: orange;
+} */
+h1:nth-child(2){
+    color: orange;
+}
+ a{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    color: rgb(10, 8, 8);
+ }

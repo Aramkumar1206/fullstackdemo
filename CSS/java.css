@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin-top: 30mm;
+    
+}
+.add{
+    width: 35mm;
+    
+    border: 1px solid red;
+    float: left;
+    margin: 30px;
+    text-align: center;
+    background-color: aqua;
+    
+}
+.number1{
+    width: 35mm;
+   
+    border: 1px solid red;
+    float: left;
+    margin: 30px;
+    text-align: center;
+    background-color: aqua;
+   
+
+}
+.number{
+    width: 35mm;
+   
+    border: 1px solid red;
+    float: left;
+    margin: 30px;
+    text-align: center;
+    background-color: aqua;
+}

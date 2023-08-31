@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/photos.css">
+    
+</head>
+<body>
+  
+  <div class="row">
+    
+    <div class="column">
+      <img src="/IMAGE/bus.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="/IMAGE/bag.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="/IMAGE/cloth.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="/IMAGE/Daily.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  <div class="row1">
+    <div class="column1">
+      <img src="/IMAGE/bus.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column1">
+      <img src="/IMAGE/bag.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column1">
+      <img src="/IMAGE/cloth.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column1">
+      <img src="/IMAGE/Daily.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:50%">
+    <div id="imgtext"></div>
+  </div>
+  <div class="row2"  >
+  
+    <div class="column2">
+      <img src="/IMAGE/bus.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column2">
+      <img src="/IMAGE/bag.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column2">
+      <img src="/IMAGE/cloth.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+  <div class="column2">
+      <img src="/IMAGE/Daily.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  <div class="row3">
+    <div class="column3">
+      <img src="/IMAGE/bus.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column3">
+      <img src="/IMAGE/cloth.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column3">
+      <img src="/IMAGE/bag.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column3">
+      <img src="/IMAGE/Daily.jpg"  style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+ 
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
+    
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+.container{
+    
+    padding: 30px; 
+    background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-vO0TA32PC4ThBXRdkKgWSlNVXotsbF5Jxg&usqp=CAU");
+    width: 100vw;
+    height: 10vh;
+    border: 1px solid red;
+
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: center;
+    opacity: 1;
+    
+    margin: 0 auto;
+}
+.gallery{
+  padding: 30px; 
+  background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-vO0TA32PC4ThBXRdkKgWSlNVXotsbF5Jxg&usqp=CAU");
+  width: 100vw;
+  height: 10vh;
+  border: 1px solid red;
+
+  background-size: cover;
+  background-repeat: no-repeat; 
+  text-align: center;
+  opacity: 1;
+  
+  margin: 0 auto
+  
+}
+
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.flex-container{
+  background-color: aqua;
+  
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 10px;
+
+}
+li{
+  float: left;
+  margin-right: 10px;
+}
+a{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+ 
+  p {
+    text-indent: 50px;
+    word-spacing: 10px;
+  }
+  img {
+    -webkit-box-reflect: right;
+    padding: 50px;
+   
+    height: 150mm;
+   }
+   div.paragraph{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-vO0TA32PC4ThBXRdkKgWSlNVXotsbF5Jxg&usqp=CAU");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    margin: auto;
+    width: 100vw;
+    height: 50vh;
+    border: 1px solid red;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: 50%; 
+    background-size: 1650px ;
+}
+
+
+
+
+  
+
+

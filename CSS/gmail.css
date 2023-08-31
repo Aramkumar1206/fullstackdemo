@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+  }
+.flexcontainer{
+    position: fixed;
+    display: flex;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+.toggle-btn{
+    position: absolute;
+    margin-left: 5mm;
+    top:  25px;
+  }
+  .toggle-btn span{
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 4px;
+    margin: 3px;
+  }
+  .gmail{
+      margin-top: 3mm;
+      margin-left:25mm;
+      
+      
+  }
+  .boxcontainer{
+    
+    content: "";
+    display: flex;
+    padding: 30px; 
+    text-align: left;
+    height: 50px;
+    width: 1200px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.elementscontainer{
+    border: none;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    position: sticky;
+    height: 100%;
+    width: 100%;
+    padding: 10px 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 300px;
+    
+}
+.icon i{  
+    font-size: 30px;
+    margin-left: 10px;
+    color:black;
+    padding-left: 10px;
+}
+.icons i{  
+    font-size: 30px;
+    
+    color:black;
+    
+}
+ .icon i:hover{
+    color: orange;
+}
+.icon  {
+    display: inline-flex;   
+}
+.icon1 i{  
+    float: right;
+    font-size: 30px;
+    color:black;
+    margin-right: 30px;
+   
+    
+}
+.icon1{
+   
+    float:right;
+    display: inline-flex;
+    padding: 10px 16px;
+    padding-left: 100px;
+    
+   
+}
+.icon1 img{
+    content: "";
+    display: flex;
+    clear: both;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: -11px;
+}
+
+  
+  .flex-container3 div {
+    border: 1px solid black;
+    align-items: center;
+   
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    
+    color: black;
+    width: 75%;
+    margin: 10px;
+    
+    line-height: 25px;
+  }
+  .flex-container3:hover{
+    border:3px rosybrown;
+  }
+ .flex-container3 {
+  font-weight: 800;
+  font-size: 20px;
+    position: fixed;
+    display: flex;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    text-align: center;
+    float: left;
+    margin-top: 65px;
+    width: 13.3%;
+    height: 100%; 
+  }
+   .flex-container3 i{
+    float: left;
+    font-size:20px ;
+   }
+  
+  .compose{
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+    
+  }
+  .compose i{
+    font-size: 40px;
+  }
+   /*flex now..............*/
+   .flexnow i{
+    color:  gray;
+    
+   }
+  
+  
+  .flex-container4 div {
+    
+    position: fixed;
+    color: black;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+ .flex-container4 i {
+    flex-direction: column; 
+    float: right;
+    margin-top: 70px;
+    margin-left: 420mm;
+    font-size: 30px;
+    width: 5%;
+    height: 100%; 
+  }
+  
+   
+  
+  .flex-container5 div {
+    
+    position: fixed;
+    color: black;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+ .flex-container5 i {
+    flex-direction: column; 
+    float: right;
+    margin-top: 120px;
+    margin-left: 421mm;
+    font-size: 30px;
+    width: 5%;
+    height: 100%; 
+  }
+  
+  
+  .flex-container6 div {
+    
+    position: fixed;
+    color: black;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+ .flex-container6 i {
+    flex-direction: column; 
+    float: right;
+    margin-top: 170px;
+    margin-left: 418mm;
+    font-size: 30px;
+    width: 5%;
+    height: 100%; 
+  }
+  
+  
+  
+  .flex-container7 div {
+    
+    position: fixed;
+    color: black;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+ .flex-container7 i {
+    flex-direction: column; 
+    float: right;
+    margin-top: 225px;
+    margin-left: 418mm;
+    font-size: 30px;
+    width: 5%;
+    height: 100%; 
+  }
+  
+ 
+  
+  .flex-container8 div {
+    
+    position: fixed;
+    color: black;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+ .flex-container8 i {
+    flex-direction: column; 
+    float: right;
+    margin-top: 400px;
+    margin-left: 420mm;
+    font-size: 30px;
+    width: 5%;
+    height: 100%; 
+  }
+  
+
+ .boxmessage1 li{
+
+    display: inline; 
+    font-size: 20px;
+ }
+ .boxmessage1 ul:hover{
+    border: 2px solid greenyellow;  
+ }
+ .boxmessage1{
+    color: blue;
+    margin-right: 60px;
+    font-size: 40px;
+    background-color: aliceblue;
+    border: 1px solid black; 
+    text-decoration-line: underline; 
+    text-decoration-color: rgb(199, 18, 18);
+ }
+ .boxmessage li{
+   
+    display: inline; 
+    font-size: 20px;
+ }
+ .boxmessage ul:hover{
+  
+    border: 2px solid greenyellow;  
+ }
+ .boxmessage{
+ 
+  
+    margin-right: 60px;
+    font-size: 40px;
+    background-color:rgb(209, 203, 203);
+    border: 1px solid black;  
+ }
+ .box{
+    margin-top: 70px;
+    float: right;
+ }
+ /*flexcontainer*/
+ .margin{
+    padding-left: 10px;
+ }
+.email{
+  margin-left: 310mm;
+  margin-top: -45px;
+}
+.color{
+  background-color: white;
+}
+
+ 
+ 

@@ -1,0 +1,98 @@
+body{
+    background-color: aqua;
+}
+/* 
+Cascading Style Sheets
+
+Types of css selector
+1.Tag Selector
+2.class selector
+3.id selector
+
+CSS Specificity
+1.Inline Styling always has the highest priority
+2.Between internal and external which is last declared
+3.Id>class>tag */
+
+
+/* div{
+
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.first {
+    background-color: green;
+}
+.second{
+    background-color: yellow;
+
+
+    types of styling:
+    External:link tag outside document
+    internal:style tag
+    inline:style after
+} */
+
+div{
+
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+/* 
+p{
+    border:10px solid black;
+    padding: 20px;
+    margin: 20px;
+} */
+
+/* 
+Border-- elements boundary
+margin--space outside the bar
+padding--space inside the bar
+
+ */
+
+ /*
+ 
+property handling and value handling
+
+
+ Border-- elements boundary
+
+ style -- mandatory
+ color
+ width
+
+
+  */
+
+  p{
+    border-style: solid dotted dashed groove;
+    border-width: 20px 5px 2px 5px;
+    border-color: red yellow rgb(11, 19, 11) blue;
+
+
+
+    /* 
+    left - 10px
+    bottom -0px
+    top - 20px
+    Right - 5px
+
+     */
+
+
+    /* border-style: inset;
+    border-bottom-style: dashed;
+    border-color: yellow;
+    border-top-color: blue;
+    border-width: 20px;
+    border-radius: 30px;
+    border-left-width: 0px; */
+  }
+

@@ -1,0 +1,104 @@
+div > h1{
+    color: blue;
+}
+
+/* 
+tag
+id
+class
+immediate child selector
+adjacent sibling selector
+ */
+
+/* 
+Pseudo Classes (:)
+300 styles will be applicable
+Pesudo Classes(::)
+some might not work
+ */
+
+ h1:hover{
+    font-size: 50px;
+    color: orange;
+ }
+
+ a{
+    font-size: 30px;
+ }
+
+ a:link{
+    color: red;
+ }
+ a:visited{
+    color: green;
+ }
+
+ a:hover{
+    color: yellow;
+ }
+
+ a:active{
+    color: purple;
+ }
+
+ p::after{
+    content: "this is a line added from css";
+    color: red;
+ }
+
+ p::before{
+    content: "this is a line added from a css---";
+    color: aqua;
+ }
+
+ p::selection{
+    color:brown;
+    background-color: orange;
+ }
+
+ p{
+    text-shadow: -6px  -6px  9px,6px -6px 9px green;
+    box-shadow: 6px 6px 7px blue;
+ }
+
+
+a{
+    text-decoration: none;
+}
+a[href="https://www.youtube.com"]{
+    color: yellow;
+}
+a[href="https://www.facebook.com"]{
+      color: blue;
+}
+
+input[type="text"]{
+    caret-color: red;
+}
+input[type="email"]{
+    caret-color:yellow;
+}
+
+ #Box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    box-shadow: 10px -10px 6px blue;
+ }
+
+ .Box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+ }
+ .first{
+    background-color: red;
+    position: absolute;
+    left: 30px;
+    z-index: -1;
+ }
+ .second{
+    background-color: blue;
+    z-index: -2;
+    position: relative;
+ }

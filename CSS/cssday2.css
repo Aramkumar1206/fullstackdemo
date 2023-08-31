@@ -1,0 +1,57 @@
+div{
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    background-image: url(train.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-attachment: local; */
+    background-attachment: scroll;
+    overflow: scroll;
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border: 10px solid black;
+    padding: 30px;
+    /* border-radius: 50%; */
+}
+
+/* 
+1.The Height and Width of the Element should be ssame
+2.total height /total widht of the element divided by 2 = px;
+ */
+
+ /* 
+ Background
+ color
+ image
+ repeat
+ attachment-- if you want to fix a image in body - use fixed
+              if you want to fix a image in element - use scroll
+              if you want to move a image in both element and body - use local
+ size
+ position
+  */
+
+  body{
+    background-color: aqua;
+    background-image: linear-gradient(to bottom,blue,yellow,blue,green,orange);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    background-position: right top;
+  }
+h1{
+    border: solid;
+    padding: 20px 20px 0px 60px;
+    margin: 100px;
+    outline-style: dotted;
+    outline-color: aqua;
+    outline-width: 10px;
+    outline-offset: 10px;
+   
+}
+span{
+    border: solid;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}

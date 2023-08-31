@@ -1,0 +1,66 @@
+/* 
+Text Formatting
+ */
+*{
+    margin: 0;
+}
+ P{
+    text-align: justify;
+    text-align-last: justify;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(10, 10, 10);
+    color: brown;
+    text-decoration-thickness: 3px;
+    text-decoration-style: double;
+    text-transform: capitalize;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    text-indent: 100px;
+    text-align: center;
+    line-height: 100px;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+ }
+
+ /* FOnt Formatting */
+
+ p{
+    font-size:2em;
+    font-style: italic;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+
+ /* 1em =16px = 1rem */
+
+ ul{
+    background-color: orange;
+    /* list-style-type: square; */
+    /* list-style-type: circle; */
+    list-style-type: upper-alpha;
+    list-style: url(train.jpg);
+    list-style-position: inside;
+    height: 4rem;
+    text-align: center;
+    word-spacing: 90px;
+    line-height: 4.1rem;
+    position: fixed;
+    width: 100%;
+
+ }
+ ul li{
+    display: inline;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ ul li a{
+    color: white;
+    text-decoration-line: none;
+    cursor: grab;
+ }
+ ul li a:hover{
+    color:black;
+    font-size: 2rem;
+ }

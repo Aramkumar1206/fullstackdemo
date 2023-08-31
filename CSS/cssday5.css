@@ -1,0 +1,56 @@
+#mainbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    align-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
+    /* 
+    flex-direction
+
+    row
+    justify-content - left to right
+    align-items-top to bottom 
+
+    row-reverse
+    justify content - left to right--left to right(flex start and flex endand mirrior)
+     align-items - top to bottom
+
+    column
+     justify content - top to bottom
+     align- items-left to right
+
+     column-reverse
+     justify content - left to right--top to bottom(flex start and flex endand mirrior)
+     align-items - left to right
+
+     */
+     
+    /* 
+    content
+    flex-start,flex-end,center,
+    space around,space-between,space evenly
+
+    items
+    flex-start,flex-end,center,
+     */
+
+.box{
+    height: 6rem;
+    width: 6rem;
+    border: solid;
+}
+.box1{background-color: red;}
+.box2{background-color: green;flex-grow: 3;}
+.box3{background-color: aqua;flex-grow: 1;}
+.box4{background-color: black;}
+.box5{background-color: blue;}
+/* .box6{background-color: red;}
+.box7{background-color: green;}
+.box8{background-color: aqua;}
+.box9{background-color: black;}
+.box10{background-color: blue;} */

@@ -1,0 +1,76 @@
+
+/* 
+transforms
+ *translate
+ *scale
+ *rotate
+ *skew
+
+transition
+animation
+keyframes
+ */
+ *{
+   margin: o;
+ }
+
+
+
+ p{
+   background-color: aqua;
+   transition: font-size 1s , tranform 1s;
+
+ }
+ p:hover{
+   transform: rotateX(360deg);
+   font-size: 1.4rem;
+ }
+
+ div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: transform 2s ,background-color 2s ,height 2s;
+    transition-duration: 3s ;
+    
+    
+
+ }
+ ul li{
+   display: inline;
+   transition: color .4s ,transform .4s;
+ }
+
+ ul li:hover{
+   color: white;
+   transform: rotateY(360deg);
+ }
+ ul{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: orange;
+   height: 2.5rem;
+
+ }
+ 
+ 
+ div:hover{
+   transition-delay: 1s;
+    transform: translate(-50%,-50%) skewY(360deg) rotateY(360deg);
+    background-color: aqua;
+    
+
+ }
+
+
+
+/* 
+ div:hover{
+    transform: translate(200px,300px);
+    transform: scale(3);
+ } */
