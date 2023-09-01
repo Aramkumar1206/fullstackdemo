@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+
+<!-- did you specify the correct bean references as arguments? -->
+
+<bean id="mobile" class="com.webProject.SpringIntro.Samsung">
+<constructor-arg  value="68534"></constructor-arg>
+<constructor-arg  value="Samsung Galaxy S10 Edge"></constructor-arg>
+<constructor-arg ref="processor"></constructor-arg>
+<constructor-arg>
+<list>
+<value>Galaxy</value>
+<value>One plus</value>
+<value>11 pro</value>
+<value>Iqoo</value>
+</list>
+</constructor-arg>
+
+<constructor-arg>
+<list>
+<ref bean="customer"></ref>
+<ref bean="customer1"></ref>
+<ref bean="customer2"></ref>
+</list>
+</constructor-arg>
+</bean>
+
+<bean id = "processor" class="com.webProject.SpringIntro.processor">
+<constructor-arg value="12345"></constructor-arg>
+<constructor-arg value="Snapdragon 750"></constructor-arg>
+<constructor-arg value="6775"></constructor-arg>
+</bean>
+
+<bean id = "customer" class="com.webProject.SpringIntro.Customers">
+<constructor-arg value="6786"></constructor-arg>
+<constructor-arg value="Alpha"></constructor-arg>
+<constructor-arg value="50000"></constructor-arg>
+</bean>
+
+<bean id = "customer1" class="com.webProject.SpringIntro.Customers">
+<constructor-arg value="678678"></constructor-arg>
+<constructor-arg value="Gama"></constructor-arg>
+<constructor-arg value="500000"></constructor-arg>
+</bean>
+
+<bean id = "customer2" class="com.webProject.SpringIntro.Customers">
+<constructor-arg value="678684"></constructor-arg>
+<constructor-arg value="Alphass"></constructor-arg>
+<constructor-arg value="870000"></constructor-arg>
+</bean>
+
+
+
+
+
+
+
+
+</beans>
