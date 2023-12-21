@@ -1,17 +1,9 @@
-import  React from "react";
-// import  ReactDOM,{createRoot}  from "react-dom/client";
-import {createRoot}  from "react-dom/client";
-import  App  from "./App"
-import "./index.css"
+/**
+ * @format
+ */
 
+import {AppRegistry} from 'react-native';
+import App from './App';
+import {name as appName} from './app.json';
 
-
-
-// ReactDOM.render(<App content = "react Data"/>
-// ,document.querySelector("div"))
-
-
-const root =createRoot(document.querySelector("div"))
-
-root.render(<App/>)
-
+AppRegistry.registerComponent(appName, () => App);
